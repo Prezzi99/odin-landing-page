@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     /* width: 100%;
     overflow: hidden;
@@ -33,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: space-between;
-    width: 370px;
+    width: 420px;
 }
 
 .nav-list li {
@@ -124,4 +126,47 @@ body {
     margin-right: 25px;
     font-size: 18px;
     margin-top: 10px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    justify-content: space-around;
+    border-radius: 9px;
+    padding: 20px 0px;
+}
+
+.call-to-action p {
+    margin-top: 0;
+    margin-bottom: 22.178px;
+}
+
+.call-to-action h5 {
+    margin-bottom: 0;
+    font-size: 24px;
+    margin-top: 22.178px;
+}
+
+.action-container button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button-container {
+    height: fit-content;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 18px;
 }
